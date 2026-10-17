@@ -1,0 +1,27 @@
+<?php
+header('Content-Type: text/html; charset=UTF-8');
+?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliothèque des Auteurs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bibliothèque des Auteurs</h1>
+    <p>Chants · Contes · Poésie</p>
+  </header>
+
+  <nav id="breadcrumb"></nav>
+
+  <main id="app"></main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
